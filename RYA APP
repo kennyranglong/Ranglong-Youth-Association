@@ -1,0 +1,124 @@
+# Ranglong Youth Association (RYA) Website
+
+A socio-cultural organization promoting the identity and culture of the Ranglong people in India.
+
+## Folder Structure
+
+- `/public` — Static assets (logo, festival images)
+- `/src`
+  - `App.js` — Main React component
+  - `components/`
+    - `Header.js`
+    - `About.js`
+    - `LanguageAdvocacy.js`
+    - `Festival.js`
+    - `Community.js`
+    - `Footer.js`
+    - `SocialMediaLinks.js`
+  - `styles/` — CSS files
+
+---
+
+## Sample Code (React.js, can be adapted for other frameworks)
+
+### `App.js`import React from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import LanguageAdvocacy from './components/LanguageAdvocacy';
+import Festival from './components/Festival';
+import Community from './components/Community';
+import SocialMediaLinks from './components/SocialMediaLinks';
+import Footer from './components/Footer';function App() {
+return (
+
+
+
+
+
+
+
+
+
+);
+}export default App;
+### `Header.js`export default function Header() {
+return (
+
+Ranglong Youth Association (RYA)
+Preserving Identity, Language and Culture of the Ranglong Tribe
+
+);
+}
+### `About.js`export default function About() {
+return (
+
+About RYA
+
+Ranglong Youth Association (RYA) is a socio-cultural organization committed to raising awareness about the unique identity of the Ranglong people and advocating for preservation of their critically endangered language, Langrong.
+
+
+);
+}
+### `LanguageAdvocacy.js`export default function LanguageAdvocacy() {
+return (
+
+Identity & Language Advocacy
+
+Promoting the preservation of the Ranglong language (Langrong), classified as critically endangered by UNESCO.
+Advocating for the recognition of the Ranglong tribe across Indian states.
+Highlighting the identity crisis: Ranglongs are identified differently in Tripura, Assam, and Mizoram.
+
+
+);
+}
+### `Festival.js`export default function Festival() {
+return (
+
+Cultural Preservation
+
+RYA organizes events like the Ranglong Khohui cultural festival to celebrate and promote Ranglong heritage and cultural practices.
+
+
+);
+}
+### `Community.js`export default function Community() {
+return (
+
+Community Awareness
+
+We strive to ensure the Ranglong tribe's distinct existence by counteracting state-specific misidentifications and sharing community news and updates.
+
+
+);
+}
+### `SocialMediaLinks.js`export default function SocialMediaLinks() {
+return (
+
+Follow Us Online
+
+
+Instagram
+
+
+Facebook
+
+
+
+);
+}
+### `Footer.js`export default function Footer() {
+return (
+
+© 2025 Ranglong Youth Association. All rights reserved.
+
+);
+}
+## Instructions
+
+1. Clone the repo and add these files within a React.js project.
+2. Customize the content, images, and links to fit Ranglong Youth Association’s branding and mission.
+3. Deploy on GitHub Pages or your preferred hosting.
+
+---
+
+This template provides a clear, advocacy-focused website ready to promote the Ranglong Youth Association’s mission and expand its online presence[web:25][web:31][web:37][web:35].
